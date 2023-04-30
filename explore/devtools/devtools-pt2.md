@@ -1,0 +1,2 @@
+1. The bug was that `num1` and `num2` were treated like strings instead of int. This meant that the `+` operation concatenated the values instead of arithmetically adding them.
+2. The fix is to convert `num1` and `num2` to numbers using the `Number()` function.
